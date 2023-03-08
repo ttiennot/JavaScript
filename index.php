@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div name="lesdivs">Coucou</div>
-    <div name="lesdivs">Coucou</div>
-    <div name="lesdivs">Coucou</div>
+    <div>Coucou</div>
+    <div>Coucou</div>
+    <div>Coucou</div>
 </body>
 <script src="main.js"></script>
 <script type="text/javascript">

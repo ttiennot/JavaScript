@@ -1,6 +1,6 @@
 function modify() {
-    var NewDiv = document.getElementsByName("lesdivs");
-    NewDiv.forEach(function (div) {
-        div.innerHTML = "Hello";
-    });
+    var NewDiv = document.getElementsByTagName("div");
+    for(var i = 0; i < NewDiv.length ; i++) {
+        NewDiv[i].innerHTML = "Hello";
+    }
 }
